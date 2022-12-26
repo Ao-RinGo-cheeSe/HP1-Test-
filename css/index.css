@@ -29,7 +29,8 @@
   padding: 20px 40px;
   position: absolute;
   color: #fff;
-  font-size: 5.0rem;
+  font-size: 4.0rem;
+  line-height: 1.2;
   text-align: center;
   background-color: rgba(0, 161, 233, 0.8);
 }
@@ -61,20 +62,14 @@
 
 .news-wrap__right {
   width: 55%;
-  font-size: 2.0rem;
-  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .news-wrap__right span {
-  font-size: 2.5rem;
-  font-weight: normal;
+  font-size: 2.0rem;
 }
 
-.news-wrap__right__item1 {
-  padding-bottom: 50px;
-}
-
-.news-wrap__right__item2 {
+.news-wrap__right__item {
   padding-bottom: 50px;
 }
 

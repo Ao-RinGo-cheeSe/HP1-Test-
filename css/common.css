@@ -136,25 +136,23 @@ a {
   font-weight: bold;
 }
 
-.color mark {
+.header-wrap__nav__list__item mark {
   padding: 0 10px;
-  color: #00a1e9;
-  background: linear-gradient(transparent 80%, #fff 0%);
+  color: #fff;
+  background: linear-gradient(transparent 80%, #8bcbe8 0%);
 }
 
-/* zoomIn */
+/* fadeIn */
 .header-wrap__nav__list__item a:hover {
-  animation: zoomIn 0.2s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+  animation: fadeIn 1.0s linear 1 forwards;
 }
 
-@keyframes zoomIn {
+@keyframes fadeIn {
   0% {
-    transform: scale(0.8);
-    font-size: 1.8rem;
+    opacity: 0;
   }
   100% {
-    font-size: 2.2rem;
-    transform: scale(1.0);
+    opacity: 1;
   }
 }
 
