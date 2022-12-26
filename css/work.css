@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.work-wrap {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.work-wrap__block {
+  width: 50%;
+  flex-direction: column;
+}
+
+.work-wrap__block img {
+  width: 550px;
+  height: 410px;
+  border-top: solid 1px #404040;
+  border-left: solid 1px #404040;
+  border-right: solid 1px #404040;
+}
+
+.work-wrap__block__content {
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+
+.work-wrap__block__content__bottom {
+  flex-direction: column;
+}
+
+.work-wrap__block__content__txt {
+  width: 550px;
+  padding: 10px 0;
+  border: solid 1px #404040;
+}
